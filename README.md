@@ -15,8 +15,7 @@ Neste caso o role permite a distincao entre um funcionario e um administrador.
 O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
 
 ## Encriptação de palavra passe
-Para a encriptação da palavra passe foi utilizado o método bcrypt. Para a instalação deste método: npm install bcrypt --save
-
+Para a encriptação da palavra passe foi utilizado o método bcrypt. Para a instalação deste método: **npm install bcrypt --save**
 
 
 ## Testes
