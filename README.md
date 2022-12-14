@@ -23,8 +23,6 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
 
 
 
-
-
 ## Testes
 ### Testes no POSTMAN
 - Testes de autenticação:
@@ -42,6 +40,8 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
          "err": "O email já existe!"
          ````
 - Testes GetUsers:
-  - GET/User
+  - GET/User - Devolve users existentes na Base de Dados
+        ````
        - 200 OK - Devolve users existentes na Base de Dados
+        ````
 
