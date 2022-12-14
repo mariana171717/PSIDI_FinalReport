@@ -70,6 +70,15 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
           ```
           - O email já está registado. - 406 - Not Acceptable
           ```
+  - DELETE/User/:id - Apagar utilizador
+      - Corretamente:
+          ```
+          - 200 ok - Utilizador é apagado da Base de Dados
+          ```
+      - Cado id nao exista:
+          ```
+          - 406 Not acceptable - O utilizador nao existe, logo nao pode apagar!.
+          ```
 
 ## Código
 O código está dividido em várias pastas. 
