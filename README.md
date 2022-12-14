@@ -20,11 +20,11 @@ O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
 ### Testes no POSTMAN
 - Testes de autenticação:
     - POST/User
-       - 200
+       - 200 OK
          ```
           Tudo okay!
          ```
-       - 400
+       - 400 Bad Request
          ```
           "err": "O email esta invalido!"
          ```
