@@ -83,7 +83,9 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
   - POST/recoverpassword - Recuperar palavra-passe do utilizador
       - Corretamente:
-
+          ```
+          Devolve o token
+          ```
   
 
 ## Código
