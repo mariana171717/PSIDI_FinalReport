@@ -95,7 +95,7 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           Senha alterada - 200 - OK
           ```
-      - Caso o token esteja errado :
+      - Se inserirmos o token errado OU inserirmos novamente o token :
           ```
           Token inválido! - 406 - Not Acceptable
           ```
