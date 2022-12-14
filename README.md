@@ -79,6 +79,10 @@ Também foi implementado um método de recuperação de palavra-passe.
           ```
           - 406 Not acceptable - O utilizador nao existe, logo nao pode apagar!.
           ```
+ - POST/recoverpassword - Recuperar palavra-passe do utilizador
+      - Corretamente:
+
+  
 
 ## Código
 O código está dividido em várias pastas. 
