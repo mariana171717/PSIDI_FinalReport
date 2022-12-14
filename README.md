@@ -41,7 +41,7 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
              ```
              "err": "O email já existe!"
              ````
-- Testes GetUsers:
+- Testes Users:
    - GET/User - Devolve todos os utilizadores existentes na Base de Dados
       - Corretamente:
           - 200 OK - Exemplo: 
