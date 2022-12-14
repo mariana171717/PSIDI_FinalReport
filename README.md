@@ -18,7 +18,10 @@ O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
 Para a encriptação da palavra passe foi utilizado o método bcrypt. Para a instalação deste método: **npm install bcrypt --save**
 
 Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte formato:
+
 ![image](https://user-images.githubusercontent.com/119684676/207591221-3eb359e4-cac6-4b37-ba06-bb1a3d7bc15f.png)
+
+
 
 
 
