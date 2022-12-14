@@ -25,6 +25,8 @@ Também foi implementado um método de recuperação de palavra-passe.
 
 ## Testes
 ### Testes no POSTMAN
+Nesta secção estão presentes os testes feitos para a API, no POSTMAN: 
+
 - Testes de autenticação:
     - POST/User - Criação de utilizador na Base de Dados
        - Corretamente: 
