@@ -14,3 +14,8 @@ Neste caso o role permite a distincao entre um funcionario e um administrador.
 
 
 O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
+
+
+## Testes
+# Testes no POSTMAN
+
