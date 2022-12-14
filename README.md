@@ -41,6 +41,7 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
          ````
 - Testes GetUsers:
   - GET/User - Devolve users existentes na Base de Dados
+      - 200 OK
         ````
         200 OK
         ````
