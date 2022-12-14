@@ -45,5 +45,5 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
      
          ![image](https://user-images.githubusercontent.com/119684676/207618634-97da6091-58e3-4b9b-b76e-48eb97748773.png)
 
-        
+      - 
 
