@@ -84,11 +84,11 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
   - POST/recoverpassword - Recuperar palavra-passe do utilizador
       - Corretamente:
           ```
-          Devolve o token
+          Devolve o token - 200 - OK
           ```
       - Caso o email nao existe :
           ```
-          O email nao existe!
+          O email nao existe! - 406 - Not Acceptable
           ```
 
 ## Código
