@@ -123,6 +123,8 @@ Este papel é definido na tabela **users**, através do atributo **role**.
    - Role=1, trata-se de um Admin
    - Role=0, trata-se de um utilizador comum.
 
+Para garantir que só os admins alteram/apagam/inserem dados na API, foi criado o folder: **Middleware**
+
 ## Login
 Para o Login, foi necessário instalar a seguinte biblioteca: **npm install --save jsonwebtoken**
 
