@@ -54,7 +54,7 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
            - 200 OK
            ```
       - Incorretamente:
-            ```
+           ```
            - 404 - Not Found 
            ```
 
