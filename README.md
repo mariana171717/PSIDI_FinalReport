@@ -50,6 +50,6 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
 
 ## Código
 O código está dividido em várias pastas. 
- - routes/routes.js: Encontra-se todas as rotas criadas.
- - database/connection.js: Encontra-se os dados necessários para a conexão com a base de dados criada. 
+ - **routes/routes.js:** Encontra-se todas as rotas criadas.
+ - **database/connection.js:** Encontra-se os dados necessários para a conexão com a base de dados criada. 
 
