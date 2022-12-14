@@ -66,7 +66,10 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
           ```
           - O utilizador nao existe.
           ```
- 
+       - Caso introduza email já existente: 
+          ```
+          - O email já está registado.
+          ```
 
 ## Código
 O código está dividido em várias pastas. 
