@@ -89,7 +89,8 @@ O código está dividido em várias pastas.
 ## Utilizadores
 A API pode ter dois tipos de utilizadores. Os administradores e o utilizador normal. 
 Este papel é definido na tabela **users**, através do atributo **role**.
-    - Role=1, trata-se de um Admin
+     - Corretamente:
+   - Role=1, trata-se de um Admin
     - Role=0, trata-se de um utilizador comum.
 
 
