@@ -99,6 +99,16 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           Token inválido! - 406 - Not Acceptable
           ```
+- Testes Login:
+  - POST/login - Efetuar o login
+    - Corretamente:
+          ```
+          Devolve o token correspondente
+          ```
+    - Caso a senha esteja correta:
+          ```
+          406 - Not Acceptable - Senha incorreta!
+          ```
 
 ## Código
 O código está dividido em várias pastas. 
