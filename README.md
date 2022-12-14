@@ -57,10 +57,6 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
             ```
            - 404 - Not Found 
            ```
-      
-
-    
-
 
 ## Código
 O código está dividido em várias pastas. 
