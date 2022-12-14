@@ -18,4 +18,5 @@ O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
 
 ## Testes
 ### Testes no POSTMAN
+>> Testes de autenticação:
 
