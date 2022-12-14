@@ -37,4 +37,8 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
          ```
           "err": "O email esta invalido!"
          ```
+       - 406 Not Acceptable
+         ```
+         "err": "O email já existe!"
+         ````
 
