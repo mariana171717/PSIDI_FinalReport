@@ -86,7 +86,10 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           Devolve o token
           ```
-  
+      - Caso o email nao existe :
+          ```
+          O email nao existe!
+          ```
 
 ## Código
 O código está dividido em várias pastas. 
