@@ -45,7 +45,11 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
       
          ![image](https://user-images.githubusercontent.com/119684676/207619197-2ef79a56-a721-4a21-8c24-2ceab0261202.png)
 
-      - 
+  - GET/User/id - Get a specific user     
+      -  200 OK - Exemplo: 
+      ```
+      Obtem informação do user com o id correpondente.
+      ```
 
 
 ## Código
