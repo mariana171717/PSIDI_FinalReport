@@ -29,15 +29,15 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
 ### Testes no POSTMAN
 - Testes de autenticação:
     - POST/User
-       - 200 OK
+       - 200 OK - Email inserido com sucesso
          ```
           Tudo okay!
          ```
-       - 400 Bad Request
+       - 400 Bad Request - Email inserido incorretamente
          ```
           "err": "O email esta invalido!"
          ```
-       - 406 Not Acceptable
+       - 406 Not Acceptable - Email inserido já existe
          ```
          "err": "O email já existe!"
          ````
