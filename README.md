@@ -28,6 +28,7 @@ Para que isto fosse possível, houve a necessidade da criação de uma nova tabe
 Nesta secção estão presentes os testes feitos para a API, no POSTMAN: 
 
 - Testes de autenticação:
+    - Foi testado a autenticação, já com as permissões de Admin ou User normal
     - POST/User - Criação de utilizador na Base de Dados
        - Corretamente: 
            - 200 OK - Email inserido com sucesso
