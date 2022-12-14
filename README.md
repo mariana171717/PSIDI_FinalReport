@@ -12,8 +12,9 @@ Foi criada uma base de dados, com o nome de 'apiusers', sendo criada uma tabela 
 A table users contem os campos: id, name, email, password, role.
 Neste caso o role permite a distincao entre um funcionario e um administrador.
 
-
 O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
+
+## Encriptação de palavra passe
 
 
 ## Testes
