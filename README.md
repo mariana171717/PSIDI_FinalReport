@@ -86,3 +86,8 @@ O código está dividido em várias pastas.
  - **database/connection.js:** Encontra-se os dados necessários para a conexão com a base de dados criada. 
  -
 
+## Utilizadores
+A API pode ter dois tipos de utilizadores. Os administradores e o utilizador normal. 
+Este papel é definido na tabela **users**, através do atributo **role**. Caso o Role=1, trata-se de um Admin, caso Role=0, trata-se de um utilizador comum.
+
+
