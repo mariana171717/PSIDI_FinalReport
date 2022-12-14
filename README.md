@@ -27,29 +27,31 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
 ### Testes no POSTMAN
 - Testes de autenticação:
     - POST/User
-       - 200 OK - Email inserido com sucesso
-         ```
-          Tudo okay!
-         ```
-       - 400 Bad Request - Email inserido incorretamente
-         ```
-          "err": "O email esta invalido!"
-         ```
-       - 406 Not Acceptable - Email inserido já existe
-         ```
-         "err": "O email já existe!"
-         ````
+       - Corretamente: 
+           - 200 OK - Email inserido com sucesso
+             ```
+              Tudo okay!
+             ```
+       - Incorretamente:  
+           - 400 Bad Request - Email inserido incorretamente
+             ```
+              "err": "O email esta invalido!"
+             ```
+           - 406 Not Acceptable - Email inserido já existe
+             ```
+             "err": "O email já existe!"
+             ````
 - Testes GetUsers:
-  - GET/User 
+  - GET/User - Devolve todos os utilizadores existentes na Base de Dados
       - 200 OK - Exemplo: 
       
          ![image](https://user-images.githubusercontent.com/119684676/207619197-2ef79a56-a721-4a21-8c24-2ceab0261202.png)
 
-  - GET/User/id - Get a specific user     
-      -  200 OK - Exemplo: 
-      ```
-      Obtem informação do user com o id correpondente.
-      ```
+  - GET/User/id - Devolve o utilizador com o id especificado
+      -  200 OK 
+      
+  - GET/User/id - Devolve o utilizador com o id especificado.
+    
 
 
 ## Código
