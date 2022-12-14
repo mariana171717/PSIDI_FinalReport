@@ -90,6 +90,15 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           O email nao existe! - 406 - Not Acceptable
           ```
+  - POST/changepassword - Alterar palavra-passe do utilizador
+      - Corretamente:
+          ```
+          Senha alterada - 200 - OK
+          ```
+      - Caso o token esteja errado :
+          ```
+          Token inválido! - 406 - Not Acceptable
+          ```
 
 ## Código
 O código está dividido em várias pastas. 
