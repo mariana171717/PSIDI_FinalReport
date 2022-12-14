@@ -68,7 +68,7 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
           ```
        - Caso introduza email já existente: 
           ```
-          - O email já está registado.
+          - O email já está registado. - 406 - Not Acceptable
           ```
 
 ## Código
