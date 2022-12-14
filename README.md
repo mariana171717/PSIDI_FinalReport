@@ -50,9 +50,13 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
 
   - GET/User/id - Devolve o utilizador com o id especificado
       -  Corretamente:
+           ```
            - 200 OK
+           ```
       - Incorretamente:
+            ```
            - 404 - Not Found 
+           ```
       
 
     
