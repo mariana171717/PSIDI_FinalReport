@@ -57,6 +57,16 @@ Na base de dados, a palavra passe nao será visível, irá aparecer no seguinte 
            ```
            - 404 - Not Found 
            ```
+  - PUT/User/ - Editar utilizador
+      - Corretamente:
+          ```
+          - 200 ok
+          ```
+       - Caso id do user nao exista:
+          ```
+          - O utilizador nao existe.
+          ```
+ 
 
 ## Código
 O código está dividido em várias pastas. 
