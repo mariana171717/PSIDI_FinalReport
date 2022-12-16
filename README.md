@@ -142,3 +142,7 @@ First, to run the project insert: npm install
 Second, to run the server enter: nodemon index.js, inside que Manage_api folder
 The port where the server will run is: 8686
 
+## Planos
+Ao criar um novo plano, existe primeiramente a verificação se nao existe um plano com aquele nome. Planos diferentes nao podem ter o mesmo nome. 
+
+
