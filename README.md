@@ -123,7 +123,7 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
     - Caso o plano senha criado sem o campo "name":
           ```
-          406 - Not Acceptable - Senha incorreta!
+          400 - Bad Request - Campo name vazio!
 
 
 ## Código
