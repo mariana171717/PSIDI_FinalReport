@@ -119,8 +119,9 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
   - POST/plan - Criar um plano
     - Corretamente:
           ```
-          200 - Tudo Okay!
+          200  Tudo Okay!
           ```
+          
     - Caso o plano seja criado sem o campo "name":
           ```
           400 - Bad Request - Nome inválido!
