@@ -106,26 +106,26 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
 - Testes Login:
   - POST/login - Efetuar o login
-    - Corretamente:
+      - Corretamente:
           ```
           Devolve o token correspondente
           ```
-    - Caso a senha esteja correta:
+      - Caso a senha esteja correta:
           ```
           406 - Not Acceptable - Senha incorreta!
           ```
 
 - Testes Plans:
   - POST/plan - Criar um plano
-    - Corretamente:
+      - Corretamente:
           ```
           200  Tudo Okay!
           ```
-    - Caso o plano seja criado sem o campo "name":
+      - Caso o plano seja criado sem o campo "name":
           ```
           400 - Bad Request - Nome inválido!
           ```
-    - Caso o plano seja criado com o campo "name" já existente:
+      - Caso o plano seja criado com o campo "name" já existente:
           ```
           "err": "O nome dado ao plano já existe!" - 406 Not Acceptable
           ```
