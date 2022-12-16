@@ -15,7 +15,7 @@ Foi criada a tabela 'Users' para armazenar todos os utilizadores da aplicacao. E
 
 Foi criada uma table **passwordtokens**, onde será armazenado o token de cada utilizador.
 
-Foi criada uma table **plans** com os campos: name, id, NumberMinutes, NumberUsers, MusicCollections, MusicSuggestions, MontlhyFee, AnualFee. Estes campos representam todos os atributos que um plano pode ter. 
+Foi criada uma table **plans** com os campos: name, id, NumberMinutes, NumberUsers, MusicCollections, MusicSuggestions, MontlhyFee, AnualFee, Active. Estes campos representam todos os atributos que um plano pode ter. 
 
 
 ## Encriptação de palavra passe
@@ -116,7 +116,14 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
 
 - Testes Plans:
-
+  - POST/plan - Criar um plano
+    - Corretamente:
+          ```
+          200 - Tudo Okay!
+          ```
+    - Caso o plano senha criado sem o campo "name":
+          ```
+          406 - Not Acceptable - Senha incorreta!
 
 
 ## Código
