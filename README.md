@@ -129,7 +129,21 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           "err": "O nome dado ao plano já existe!" - 406 Not Acceptable
           ```
-     
+  - GET/plan - Ver todos os planos existentes
+      - Corretamente:
+          ```
+          Aparece todos os planos existentes - 200 OK
+          ```
+  - GET/plan/:name - Ver plano com um respetivo nome:
+      - Corretamente: 
+          ```
+          Aparece o plano com o nome respetivo - 200 OK
+          ```
+      - Caso seja introduzido um nome de um plano que nao exista:
+          ```
+          {} - 404 Not Found
+          ```
+          
 
 
 ## Código
