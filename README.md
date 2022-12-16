@@ -9,7 +9,6 @@ Esta Api foi desenvolvida
 A base de dados utilizada neste projeto é a HeidiSQL.
 
 Foi criada uma base de dados, com o nome de **apiusers**, onde foram criadas as seguintes tabelas:
-
     - Users - São armazenados todos os utilizadores da aplicacao.
             -   Contem os campos: id, name, email, password, role.
 Neste caso o role permite a distincao entre um funcionario e um administrador.
