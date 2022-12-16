@@ -15,7 +15,7 @@ Neste caso o role permite a distincao entre um funcionario e um administrador.
 
 Foi criada uma table **passwordtokens**, onde será armazenado o token de cada utilizador.
 
-Foi criada uma table **plans** com os campos: id, NumberMinutes, NumberUsers, MusicCollections, MusicSuggestions, MontlhyFee, AnualFee. Estes campos representam todos os atributos que um plano pode ter. 
+Foi criada uma table **plans** com os campos: name, id, NumberMinutes, NumberUsers, MusicCollections, MusicSuggestions, MontlhyFee, AnualFee. Estes campos representam todos os atributos que um plano pode ter. 
 
 
 ## Encriptação de palavra passe
