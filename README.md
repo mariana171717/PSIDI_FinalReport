@@ -11,8 +11,12 @@ A base de dados utilizada neste projeto é a HeidiSQL.
 Foi criada uma base de dados, com o nome de **apiusers**, sendo criada uma tabela chamada 'users', onde serao armazenados todos os utilizadores da aplicacao.
 A table users contem os campos: id, name, email, password, role.
 Neste caso o role permite a distincao entre um funcionario e um administrador.
+**Nota**: O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
 
-O email tem de ser obrigatoriamente unico. (nao tem repetidos.)
+Foi criada uma table **passwordtokens**, onde será armazenado o token de cada utilizador.
+
+Foi criada uma table **plans** com os campos: id, NumberMinutes, NumberUsers, MusicCollections, MusicSuggestions, MontlhyFee, AnualFee. Estes campos representam todos os atributos que um plano pode ter. 
+
 
 ## Encriptação de palavra passe
 Para a encriptação da palavra passe foi utilizado o método bcrypt. Para a instalação deste método: **npm install bcrypt --save**
