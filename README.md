@@ -121,9 +121,15 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           200 - Tudo Okay!
           ```
-    - Caso o plano senha criado sem o campo "name":
+    - Caso o plano seja criado sem o campo "name":
           ```
-          400 - Bad Request - Campo name vazio!
+          400 - Bad Request - Nome inválido!
+          ```
+    - Caso o plano seja criado com o campo "name" já existente:
+          ```
+          "err": "O nome dado ao plano já existe!" - 406 Not Acceptable
+          ```
+     
 
 
 ## Código
