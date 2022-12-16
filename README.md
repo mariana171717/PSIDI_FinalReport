@@ -137,3 +137,8 @@ Para garantir que só os admins alteram/apagam/inserem dados na API, foi criado 
 ## Login
 Para o Login, foi necessário instalar a seguinte biblioteca: **npm install --save jsonwebtoken**
 
+## Run the project
+First, to run the project insert: npm install
+Second, to run the server enter: nodemon index.js, inside que Manage_api folder
+The port where the server will run is: 8686
+
