@@ -114,6 +114,9 @@ Nesta secção estão presentes os testes feitos para a API, no POSTMAN:
           ```
           406 - Not Acceptable - Senha incorreta!
           ```
+- Testes Plans:
+
+
 
 ## Código
 O código está dividido em várias pastas. 
